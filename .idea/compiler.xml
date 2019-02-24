@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-client" />
+        <module name="cloud-config-server" />
+        <module name="cloud-consumer" />
+        <module name="cloud-consumer-feign" />
+        <module name="cloud-consumer-feign-hystrix" />
+        <module name="cloud-consumer-hystrix" />
+        <module name="cloud-demo-config-client" />
+        <module name="cloud-demo-config-server" />
+        <module name="cloud-demo-consumer" />
+        <module name="cloud-demo-consumer-feign" />
+        <module name="cloud-demo-consumer-feign-hystrix" />
+        <module name="cloud-demo-consumer-hystrix" />
+        <module name="cloud-demo-eureka" />
+        <module name="cloud-demo-eureka-high" />
+        <module name="cloud-demo-provider" />
+        <module name="cloud-demo-provider-2" />
+        <module name="cloud-demo-zuul" />
+        <module name="cloud-eureka" />
+        <module name="cloud-eureka-high" />
+        <module name="cloud-provider" />
+        <module name="cloud-provider-2" />
+        <module name="cloud-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="cloud-config-client" target="1.8" />
+      <module name="cloud-config-server" target="1.8" />
+      <module name="cloud-consumer" target="1.8" />
+      <module name="cloud-consumer-feign" target="1.8" />
+      <module name="cloud-consumer-feign-hystrix" target="1.8" />
+      <module name="cloud-consumer-hystrix" target="1.8" />
+      <module name="cloud-demo-config-client" target="1.8" />
+      <module name="cloud-demo-config-server" target="1.8" />
+      <module name="cloud-demo-consumer" target="1.8" />
+      <module name="cloud-demo-consumer-feign" target="1.8" />
+      <module name="cloud-demo-consumer-feign-hystrix" target="1.8" />
+      <module name="cloud-demo-consumer-hystrix" target="1.8" />
+      <module name="cloud-demo-eureka" target="1.8" />
+      <module name="cloud-demo-eureka-high" target="1.8" />
+      <module name="cloud-demo-provider" target="1.8" />
+      <module name="cloud-demo-provider-2" target="1.8" />
+      <module name="cloud-demo-zuul" target="1.8" />
+      <module name="cloud-eureka" target="1.8" />
+      <module name="cloud-eureka-high" target="1.8" />
+      <module name="cloud-provider" target="1.8" />
+      <module name="cloud-provider-2" target="1.8" />
+      <module name="cloud-zuul" target="1.8" />
+      <module name="qbvideo" target="1.8" />
+      <module name="spring-cloud-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

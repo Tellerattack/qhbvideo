@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" filepath="$PROJECT_DIR$/cloud-config-client/cloud-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" filepath="$PROJECT_DIR$/cloud-config-server/cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" filepath="$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-feign/cloud-consumer-feign.iml" filepath="$PROJECT_DIR$/cloud-consumer-feign/cloud-consumer-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix/cloud-consumer-feign-hystrix.iml" filepath="$PROJECT_DIR$/cloud-consumer-feign-hystrix/cloud-consumer-feign-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-hystrix/cloud-consumer-hystrix.iml" filepath="$PROJECT_DIR$/cloud-consumer-hystrix/cloud-consumer-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-high/cloud-eureka-high.iml" filepath="$PROJECT_DIR$/cloud-eureka-high/cloud-eureka-high.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider/cloud-provider.iml" filepath="$PROJECT_DIR$/cloud-provider/cloud-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-provider-2/cloud-provider-2.iml" filepath="$PROJECT_DIR$/cloud-provider-2/cloud-provider-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qbvideo.iml" filepath="$PROJECT_DIR$/qbvideo.iml" />
+    </modules>
+  </component>
+</project>
