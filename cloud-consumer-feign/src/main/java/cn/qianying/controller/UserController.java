@@ -1,7 +1,7 @@
 package cn.qianying.controller;
 
-import cn.org.zhixiang.domain.User;
-import cn.org.zhixiang.feign.UserFeignClient;
+import cn.qianying.domain.User;
+import cn.qianying.feign.UserFeignClient;
 import cn.qianying.domain.User;
 import cn.qianying.feign.UserFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;

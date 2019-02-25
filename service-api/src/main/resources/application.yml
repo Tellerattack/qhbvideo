@@ -1,0 +1,8 @@
+swagger:
+  base-package: cn.qianying.serviceapi.api
+  #视频直播网站接口api
+  title: \u89c6\u9891\u76f4\u64ad\u7f51\u7ad9\u63a5\u53e3\u0061\u0070\u0069
+  #描述当前系统中的接口api所需要的各种接口参数以及接口返回等信息
+  description: \u63cf\u8ff0\u5f53\u524d\u7cfb\u7edf\u4e2d\u7684\u63a5\u53e3\u0061\u0070\u0069\u6240\u9700\u8981\u7684\u5404\u79cd\u63a5\u53e3\u53c2\u6570\u4ee5\u53ca\u63a5\u53e3\u8fd4\u56de\u7b49\u4fe1\u606f
+  terms-of-service-url: http://qbvideo.com
+  version: 1.0

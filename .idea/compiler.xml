@@ -28,6 +28,9 @@
         <module name="cloud-provider" />
         <module name="cloud-provider-2" />
         <module name="cloud-zuul" />
+        <module name="domain" />
+        <module name="service-api" />
+        <module name="sys-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -53,8 +56,11 @@
       <module name="cloud-provider" target="1.8" />
       <module name="cloud-provider-2" target="1.8" />
       <module name="cloud-zuul" target="1.8" />
+      <module name="domain" target="1.8" />
       <module name="qbvideo" target="1.8" />
+      <module name="service-api" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
+      <module name="sys-utils" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

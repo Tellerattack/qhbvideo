@@ -13,7 +13,10 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-provider/cloud-provider.iml" filepath="$PROJECT_DIR$/cloud-provider/cloud-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provider-2/cloud-provider-2.iml" filepath="$PROJECT_DIR$/cloud-provider-2/cloud-provider-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/qbvideo.iml" filepath="$PROJECT_DIR$/qbvideo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-api/service-api.iml" filepath="$PROJECT_DIR$/service-api/service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sys-utils/sys-utils.iml" filepath="$PROJECT_DIR$/sys-utils/sys-utils.iml" />
     </modules>
   </component>
 </project>

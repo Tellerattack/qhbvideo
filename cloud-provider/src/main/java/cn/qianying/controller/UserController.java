@@ -20,8 +20,10 @@ public class UserController {
         user.setAge(18);
         return user;
     }
+
     @GetMapping(value = "/getName")
     public String getName(){
         return "张三";
     }
+
 }
