@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.gzsendi.mapper.nagios.ServiceCheckMapper">
+<mapper namespace="cn.qianying.mapper.nagios.ServiceCheckMapper">
 
-    <resultMap id="NagiosServicechecks" type="cn.gzsendi.model.nagios.NagiosServiceCheck">
+    <resultMap id="NagiosServicechecks" type="cn.qianying.domain.NagiosServiceCheck">
         <result column="servicecheck_id" property="serviceCheckId"/>
         <result column="instance_id" property="instanceId"/>
         <result column="service_object_id" property="serviceObjectId"/>

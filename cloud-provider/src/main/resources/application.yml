@@ -33,8 +33,8 @@ spring:
       password: 123456
       driver-class-name: com.mysql.jdbc.Driver
     ##------------------------------用户token功能记住存储------------------------------
-    user_token:
-        url: jdbc:mysql://localhost:3306/user_token?useAffectedRows=true&zeroDateTimeBehavior=convertToNull
+    usertoken:
+        url: jdbc:mysql://localhost:3306/userToken?useAffectedRows=true&zeroDateTimeBehavior=convertToNull
         username: root
         password: 123456
         driver-class-name: com.mysql.jdbc.Driver
@@ -59,11 +59,6 @@ http-pool:
 
 runtime.cache.file.absolute.path: /Users/nacht/Documents/sendi/bussinessNM/nagios/nagios/src/main/resources/runtimeCache.properties
 mybatis.configuration.log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-
-
-
-
-
 
 server:
   port: 8090

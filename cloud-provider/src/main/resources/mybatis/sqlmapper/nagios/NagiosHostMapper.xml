@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.gzsendi.mapper.nagios.NagiosHostMapper">
+<mapper namespace="cn.qianying.mapper.nagios.NagiosHostMapper">
 
-    <resultMap id="NagiosHosts" type="cn.gzsendi.model.nagios.NagiosHost" >
+    <resultMap id="NagiosHosts" type="cn.qianying.domain.NagiosHost" >
         <result column="host_id" property="hostId" />
         <result column="instance_id" property="instanceId" />
         <result column="config_type" property="configType" />

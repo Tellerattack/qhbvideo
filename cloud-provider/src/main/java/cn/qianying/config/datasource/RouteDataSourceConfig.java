@@ -24,7 +24,7 @@ import java.util.Map;
  * Created on 30/11/2018
  */
 @Configuration
-@MapperScan(basePackages = "cn.gzsendi.mapper.*", sqlSessionTemplateRef = "routeSqlSessionTemplate")
+@MapperScan(basePackages = "cn.qianying.mapper.*", sqlSessionTemplateRef = "routeSqlSessionTemplate")
 public class RouteDataSourceConfig {
 
     @Bean(name = "ejb3DataSource")
@@ -63,13 +63,13 @@ public class RouteDataSourceConfig {
      * @return
      */
     @Bean(name = "userTokenDataSource")
-    @ConfigurationProperties(prefix = "spring.datasource.user_token")
+    @ConfigurationProperties(prefix = "spring.datasource.usertoken")
     public DataSource tokenDataSource() {
         return DataSourceBuilder.create().build();
     }
 
     @Bean(name = "routeDataSource")
-    @Primary
+//    @Primary
     public DataSource routeDataSource() {
         DynamicDataSource dataSource = new DynamicDataSource();
         dataSource.setDefaultTargetDataSource(this.ejb3DataSource());
